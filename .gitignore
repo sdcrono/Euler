@@ -54,6 +54,12 @@ JetBrains.gitignore
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+Java/.idea/**/workspace.xml
+Java/.idea/**/tasks.xml
+Java/.idea/**/usage.statistics.xml
+Java/.idea/**/dictionaries
+Java/.idea/**/shelf
+
 
 # Generated files
 .idea/**/contentModel.xml
@@ -66,10 +72,19 @@ JetBrains.gitignore
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+Java/.idea/**/dataSources/
+Java/.idea/**/dataSources.ids
+Java/.idea/**/dataSources.local.xml
+Java/.idea/**/sqlDataSources.xml
+Java/.idea/**/dynamic.xml
+Java/.idea/**/uiDesigner.xml
+Java/.idea/**/dbnavigator.xml
 
 # Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
+Java/.idea/**/gradle.xml
+Java/.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
