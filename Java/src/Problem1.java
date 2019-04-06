@@ -8,11 +8,27 @@ public class Problem1 {
 
     public static void main(String[] args) {
         int sum = 0;
+        int count = 1;
+        int limiter = 1000;
+        int threeMultiple, fiveMultiple;
 
-        for (int i = 1; i < 1000; i++) {
-            if (((i % 3) == 0) || ((i % 5) == 0)) {
-                sum += i;
+        while(true) {
+            threeMultiple = 3 * count;
+            fiveMultiple = 5 * count;
+
+            if (threeMultiple < limiter && ((threeMultiple % 5) != 0)) {
+                sum += threeMultiple;
             }
+
+            if (fiveMultiple < limiter) {
+                sum += fiveMultiple;
+            }
+
+            if ((threeMultiple >= limiter) && (fiveMultiple >= limiter)) {
+                break;
+            }
+
+            count++;
         }
 
         System.out.println("Sum: " + sum);
